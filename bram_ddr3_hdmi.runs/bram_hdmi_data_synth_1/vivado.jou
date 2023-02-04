@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jan 12 10:00:49 2023
+# Process ID: 26272
+# Current directory: E:/eth_ddr3_hdmi/eth_ddr3_hdmi.runs/bram_hdmi_data_synth_1
+# Command line: vivado.exe -log bram_hdmi_data.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bram_hdmi_data.tcl
+# Log file: E:/eth_ddr3_hdmi/eth_ddr3_hdmi.runs/bram_hdmi_data_synth_1/bram_hdmi_data.vds
+# Journal file: E:/eth_ddr3_hdmi/eth_ddr3_hdmi.runs/bram_hdmi_data_synth_1\vivado.jou
+#-----------------------------------------------------------
+source bram_hdmi_data.tcl -notrace

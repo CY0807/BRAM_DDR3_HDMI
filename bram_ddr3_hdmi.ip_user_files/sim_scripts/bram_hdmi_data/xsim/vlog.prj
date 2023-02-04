@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../eth_ddr3_hdmi.srcs/sources_1/ip/bram_hdmi_data/sim/bram_hdmi_data.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

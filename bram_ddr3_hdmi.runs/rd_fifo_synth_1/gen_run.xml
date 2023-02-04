@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="rd_fifo_synth_1" LaunchPart="xc7a35tfgg484-2L" LaunchTime="1673580680">
+  <File Type="PA-TCL" Name="rd_fifo.tcl"/>
+  <File Type="REPORTS-TCL" Name="rd_fifo_reports.tcl"/>
+  <File Type="RDS-RDS" Name="rd_fifo.vds"/>
+  <File Type="RDS-UTIL" Name="rd_fifo_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="rd_fifo_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="rd_fifo.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/rd_fifo">
+    <File Path="$PSRCDIR/sources_1/ip/rd_fifo/rd_fifo.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/rd_fifo/rd_fifo.xci"/>
+        <Attr Name="ImportTime" Val="1673580677"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="rd_fifo"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/rd_fifo">
+    <File Path="$PSRCDIR/sources_1/ip/rd_fifo/rd_fifo.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/rd_fifo/rd_fifo.xci"/>
+        <Attr Name="ImportTime" Val="1673580677"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="rd_fifo"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

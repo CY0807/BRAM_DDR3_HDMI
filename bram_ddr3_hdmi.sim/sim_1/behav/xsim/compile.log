@@ -1,0 +1,178 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/ila_0/sim/ila_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/wr_fifo/sim/wr_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wr_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/rd_fifo/sim/rd_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rd_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_2_clk_ibuf.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_clk_ibuf
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_2_infrastructure.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_infrastructure
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_2_iodelay_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_iodelay_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_2_tempmon.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_tempmon
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_arb_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_arb_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_arb_row_col.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_arb_row_col
+WARNING: [VRFC 10-2654] begin/end is required for generate-for in this mode of verilog [E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_arb_row_col.v:252]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_arb_select.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_arb_select
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_bank_cntrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_bank_cntrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_bank_common.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_bank_common
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_bank_compare.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_bank_compare
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_bank_mach.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_bank_mach
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_bank_queue.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_bank_queue
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_bank_state.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_bank_state
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_col_mach.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_col_mach
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_mc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_mc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_rank_cntrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_rank_cntrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_rank_common.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_rank_common
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_rank_mach.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_rank_mach
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_round_robin_arb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_round_robin_arb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_2_ecc_buf.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ecc_buf
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_2_ecc_dec_fix.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ecc_dec_fix
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_2_ecc_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ecc_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_2_ecc_merge_enc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ecc_merge_enc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_2_fi_xor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_fi_xor
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ip_top/mig_7series_v4_2_memc_ui_top_std.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_memc_ui_top_std
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ip_top/mig_7series_v4_2_mem_intfc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_mem_intfc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_group_io.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_byte_group_io
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_byte_lane
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_calib_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_calib_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_if_post_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_if_post_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_mc_phy
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_mc_phy_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_of_pre_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_of_pre_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_4lanes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_4lanes
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ck_addr_cmd_delay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_ck_addr_cmd_delay
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_dqs_found_cal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_dqs_found_cal
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_dqs_found_cal_hr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_init
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_cntlr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_ocd_cntlr
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_ocd_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_edge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_ocd_edge
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_lim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_ocd_lim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_ocd_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_po_cntlr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_ocd_po_cntlr
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_samp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_ocd_samp
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_oclkdelay_cal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_oclkdelay_cal
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_prbs_rdlvl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_prbs_rdlvl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_rdlvl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_rdlvl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_tempmon.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_tempmon
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_wrcal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_wrcal
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_wrlvl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_wrlvl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_wrlvl_off_delay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_phy_wrlvl_off_delay
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_prbs_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_prbs_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_skip_calib_tap.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ddr_skip_calib_tap
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_poc_cc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_poc_cc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_poc_edge_store.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_poc_edge_store
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_poc_meta.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_poc_meta
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_poc_pd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_poc_pd
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_poc_tap_base.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_poc_tap_base
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_poc_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_poc_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_2_ui_cmd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ui_cmd
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_2_ui_rd_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ui_rd_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_2_ui_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ui_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_2_ui_wr_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_ui_wr_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_0_mig
+INFO: [VRFC 10-2458] undeclared symbol dbg_sel_po_incdec, assumed default net type wire [E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.v:1094]
+INFO: [VRFC 10-2458] undeclared symbol dbg_po_f_inc, assumed default net type wire [E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.v:1098]
+INFO: [VRFC 10-2458] undeclared symbol dbg_po_f_stg23_sel, assumed default net type wire [E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.v:1099]
+INFO: [VRFC 10-2458] undeclared symbol dbg_po_f_dec, assumed default net type wire [E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.v:1100]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/bram_hdmi_data/sim/bram_hdmi_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bram_hdmi_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/new/bram_ddr3_hdmi_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bram_ddr3_hdmi_test
+WARNING: [VRFC 10-3380] identifier 'all_ok' is used before its declaration [E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/new/bram_ddr3_hdmi_test.v:60]
+WARNING: [VRFC 10-3380] identifier 'data_out_d' is used before its declaration [E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/new/bram_ddr3_hdmi_test.v:66]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/datain_2_rgb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datain_2_rgb
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'data_req' is not allowed [E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/datain_2_rgb.v:145]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_fifo_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr3_fifo_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_rw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr3_rw
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'app_addr' is not allowed [E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_rw.v:38]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr3_top
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'init_calib_complete' is not allowed [E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_top.v:70]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/hdmi_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_top
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'video_clk' is not allowed [E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/hdmi_top.v:38]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'video_clk_5x' is not allowed [E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/hdmi_top.v:39]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi_test/img_data_generator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module img_data_generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sim_1/new/tb_bram_ddr3_hdmi_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_bram_ddr3_hdmi_test

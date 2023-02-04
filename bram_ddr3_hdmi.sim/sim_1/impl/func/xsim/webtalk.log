@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jan 11 20:23:46 2023
+# Process ID: 21432
+# Current directory: E:/eth_ddr3_hdmi/eth_ddr3_hdmi.sim/sim_1/impl/func/xsim
+# Command line: wbtcv.exe -mode batch -source E:/eth_ddr3_hdmi/eth_ddr3_hdmi.sim/sim_1/impl/func/xsim/xsim.dir/tb_img_data_generator_func_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/eth_ddr3_hdmi/eth_ddr3_hdmi.sim/sim_1/impl/func/xsim/webtalk.log
+# Journal file: E:/eth_ddr3_hdmi/eth_ddr3_hdmi.sim/sim_1/impl/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/eth_ddr3_hdmi/eth_ddr3_hdmi.sim/sim_1/impl/func/xsim/xsim.dir/tb_img_data_generator_func_impl/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 109.512 ; gain = 17.836
+INFO: [Common 17-206] Exiting Webtalk at Wed Jan 11 20:23:57 2023...

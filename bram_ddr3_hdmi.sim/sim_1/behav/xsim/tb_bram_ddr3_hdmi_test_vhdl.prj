@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/SyncAsync.vhd" \
+"../../../../eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/SyncAsyncReset.vhd" \
+"../../../../eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/ClockGen.vhd" \
+"../../../../eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/DVI_Constants.vhd" \
+"../../../../eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/OutputSERDES.vhd" \
+"../../../../eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd" \
+"../../../../eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/rgb2dvi.vhd" \
+
+# Do not sort compile order
+nosort

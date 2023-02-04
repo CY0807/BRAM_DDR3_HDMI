@@ -1,0 +1,8 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../eth_ddr3_hdmi.srcs/sources_1/ip/clk_wiz_0" \
+"tb_img_data_generator_func_impl.v" \
+"../../../../../eth_ddr3_hdmi.srcs/sources_1/new/img_data_generator.v" \
+"../../../../../eth_ddr3_hdmi.srcs/sim_1/new/tb_img_data_generator.v" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,849 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Feb  4 17:17:19 2023
+# Process ID: 2124
+# Current directory: E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1
+# Command line: vivado.exe -log bram_ddr3_hdmi_test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bram_ddr3_hdmi_test.tcl
+# Log file: E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1/bram_ddr3_hdmi_test.vds
+# Journal file: E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source bram_ddr3_hdmi_test.tcl -notrace
+Command: synth_design -top bram_ddr3_hdmi_test -part xc7a35tfgg484-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tfgg484-2L
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 16844 
+WARNING: [Synth 8-2611] redeclaration of ansi port data_req is not allowed [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/datain_2_rgb.v:145]
+WARNING: [Synth 8-2611] redeclaration of ansi port app_addr is not allowed [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_rw.v:38]
+WARNING: [Synth 8-976] init_calib_complete has already been declared [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_top.v:72]
+WARNING: [Synth 8-2654] second declaration of init_calib_complete ignored [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_top.v:72]
+INFO: [Synth 8-994] init_calib_complete is declared here [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_top.v:70]
+WARNING: [Synth 8-2611] redeclaration of ansi port video_clk is not allowed [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/hdmi_top.v:38]
+WARNING: [Synth 8-2611] redeclaration of ansi port video_clk_5x is not allowed [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/hdmi_top.v:39]
+WARNING: [Synth 8-6901] identifier 'data_out' is used before its declaration [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/new/bram_ddr3_hdmi_test.v:66]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 850.594 ; gain = 184.008
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bram_ddr3_hdmi_test' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/new/bram_ddr3_hdmi_test.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1/.Xil/Vivado-2124-LAPTOP-8KA88UT5/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1/.Xil/Vivado-2124-LAPTOP-8KA88UT5/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_1' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1/.Xil/Vivado-2124-LAPTOP-8KA88UT5/realtime/clk_wiz_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_1' (2#1) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1/.Xil/Vivado-2124-LAPTOP-8KA88UT5/realtime/clk_wiz_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'img_data_generator' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi_test/img_data_generator.v:23]
+	Parameter H_ACTIVE bound to: 16'b0000000110000000 
+	Parameter V_ACTIVE bound to: 16'b0000000011011000 
+INFO: [Synth 8-6157] synthesizing module 'bram_hdmi_data' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1/.Xil/Vivado-2124-LAPTOP-8KA88UT5/realtime/bram_hdmi_data_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bram_hdmi_data' (3#1) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1/.Xil/Vivado-2124-LAPTOP-8KA88UT5/realtime/bram_hdmi_data_stub.v:6]
+WARNING: [Synth 8-7023] instance 'bram_hdmi_data_inst' of module 'bram_hdmi_data' has 6 connections declared, but only 5 given [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi_test/img_data_generator.v:97]
+WARNING: [Synth 8-6014] Unused sequential element v_ratio_reg was removed.  [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi_test/img_data_generator.v:81]
+INFO: [Synth 8-6155] done synthesizing module 'img_data_generator' (4#1) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi_test/img_data_generator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_top' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/hdmi_top.v:22]
+INFO: [Synth 8-6157] synthesizing module 'datain_2_rgb' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/datain_2_rgb.v:23]
+	Parameter H_ACTIVE bound to: 16'b0000011110000000 
+	Parameter H_FP bound to: 16'b0000000001011000 
+	Parameter H_SYNC bound to: 16'b0000000000101100 
+	Parameter H_BP bound to: 16'b0000000010010100 
+	Parameter V_ACTIVE bound to: 16'b0000010000111000 
+	Parameter V_FP bound to: 16'b0000000000000100 
+	Parameter V_SYNC bound to: 16'b0000000000000101 
+	Parameter V_BP bound to: 16'b0000000000100100 
+	Parameter HS_POL bound to: 1'b1 
+	Parameter VS_POL bound to: 1'b1 
+	Parameter H_TOTAL bound to: 16'b0000100010011000 
+	Parameter V_TOTAL bound to: 16'b0000010001100101 
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/datain_2_rgb.v:258]
+INFO: [Synth 8-6157] synthesizing module 'ila_0' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1/.Xil/Vivado-2124-LAPTOP-8KA88UT5/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_0' (5#1) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1/.Xil/Vivado-2124-LAPTOP-8KA88UT5/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_hdmi_out'. This will prevent further optimization [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/datain_2_rgb.v:258]
+WARNING: [Synth 8-6014] Unused sequential element active_x_reg was removed.  [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/datain_2_rgb.v:189]
+INFO: [Synth 8-6155] done synthesizing module 'datain_2_rgb' (6#1) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/datain_2_rgb.v:23]
+INFO: [Synth 8-638] synthesizing module 'rgb2dvi' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/rgb2dvi.vhd:89]
+	Parameter kGenerateSerialClk bound to: 0 - type: bool 
+	Parameter kClkPrimitive bound to: MMCM - type: string 
+	Parameter kClkRange bound to: 1 - type: integer 
+	Parameter kRstActiveHigh bound to: 1 - type: bool 
+INFO: [Synth 8-638] synthesizing module 'ResetBridge' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/SyncAsyncReset.vhd:72]
+	Parameter kPolarity bound to: 1'b1 
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/SyncAsyncReset.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'SyncAsync' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/SyncAsync.vhd:72]
+	Parameter kResetTo bound to: 1'b1 
+	Parameter kStages bound to: 2 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "TRUE" *) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/SyncAsync.vhd:73]
+INFO: [Synth 8-256] done synthesizing module 'SyncAsync' (7#1) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/SyncAsync.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'ResetBridge' (8#1) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/SyncAsyncReset.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'OutputSERDES' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/OutputSERDES.vhd:76]
+	Parameter kParallelWidth bound to: 10 - type: integer 
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: TMDS_33 - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OutputBuffer' to cell 'OBUFDS' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/OutputSERDES.vhd:83]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: SDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter INIT_OQ bound to: 1'b0 
+	Parameter INIT_TQ bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter IS_D3_INVERTED bound to: 1'b0 
+	Parameter IS_D4_INVERTED bound to: 1'b0 
+	Parameter IS_D5_INVERTED bound to: 1'b0 
+	Parameter IS_D6_INVERTED bound to: 1'b0 
+	Parameter IS_D7_INVERTED bound to: 1'b0 
+	Parameter IS_D8_INVERTED bound to: 1'b0 
+	Parameter IS_T1_INVERTED bound to: 1'b0 
+	Parameter IS_T2_INVERTED bound to: 1'b0 
+	Parameter IS_T3_INVERTED bound to: 1'b0 
+	Parameter IS_T4_INVERTED bound to: 1'b0 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_OQ bound to: 1'b0 
+	Parameter SRVAL_TQ bound to: 1'b0 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'SerializerMaster' to cell 'OSERDESE2' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/OutputSERDES.vhd:92]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: SDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter INIT_OQ bound to: 1'b0 
+	Parameter INIT_TQ bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter IS_D3_INVERTED bound to: 1'b0 
+	Parameter IS_D4_INVERTED bound to: 1'b0 
+	Parameter IS_D5_INVERTED bound to: 1'b0 
+	Parameter IS_D6_INVERTED bound to: 1'b0 
+	Parameter IS_D7_INVERTED bound to: 1'b0 
+	Parameter IS_D8_INVERTED bound to: 1'b0 
+	Parameter IS_T1_INVERTED bound to: 1'b0 
+	Parameter IS_T2_INVERTED bound to: 1'b0 
+	Parameter IS_T3_INVERTED bound to: 1'b0 
+	Parameter IS_T4_INVERTED bound to: 1'b0 
+	Parameter SERDES_MODE bound to: SLAVE - type: string 
+	Parameter SRVAL_OQ bound to: 1'b0 
+	Parameter SRVAL_TQ bound to: 1'b0 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'SerializerSlave' to cell 'OSERDESE2' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/OutputSERDES.vhd:135]
+INFO: [Synth 8-256] done synthesizing module 'OutputSERDES' (9#1) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/OutputSERDES.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'TMDS_Encoder' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'TMDS_Encoder' (10#1) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'rgb2dvi' (11#1) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/rgb2dvi.vhd:89]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_top' (12#1) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/hdmi_top.v:22]
+INFO: [Synth 8-6157] synthesizing module 'ddr3_top' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_top.v:2]
+INFO: [Synth 8-6157] synthesizing module 'ddr3_rw' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_rw.v:3]
+	Parameter IDLE bound to: 4'b0001 
+	Parameter DDR3_DONE bound to: 4'b0010 
+	Parameter WRITE bound to: 4'b0100 
+	Parameter READ bound to: 4'b1000 
+WARNING: [Synth 8-6014] Unused sequential element rd_rst_reg was removed.  [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_rw.v:154]
+INFO: [Synth 8-6155] done synthesizing module 'ddr3_rw' (13#1) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_rw.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_0' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1/.Xil/Vivado-2124-LAPTOP-8KA88UT5/realtime/mig_7series_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_0' (14#1) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1/.Xil/Vivado-2124-LAPTOP-8KA88UT5/realtime/mig_7series_0_stub.v:5]
+WARNING: [Synth 8-7023] instance 'u_mig_7series_0' of module 'mig_7series_0' has 39 connections declared, but only 38 given [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_top.v:112]
+INFO: [Synth 8-6157] synthesizing module 'ddr3_fifo_ctrl' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_fifo_ctrl.v:3]
+INFO: [Synth 8-6157] synthesizing module 'rd_fifo' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1/.Xil/Vivado-2124-LAPTOP-8KA88UT5/realtime/rd_fifo_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rd_fifo' (15#1) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1/.Xil/Vivado-2124-LAPTOP-8KA88UT5/realtime/rd_fifo_stub.v:6]
+WARNING: [Synth 8-689] width (11) of port connection 'wr_data_count' does not match port width (9) of module 'rd_fifo' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_fifo_ctrl.v:97]
+INFO: [Synth 8-6157] synthesizing module 'wr_fifo' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1/.Xil/Vivado-2124-LAPTOP-8KA88UT5/realtime/wr_fifo_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'wr_fifo' (16#1) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1/.Xil/Vivado-2124-LAPTOP-8KA88UT5/realtime/wr_fifo_stub.v:6]
+WARNING: [Synth 8-689] width (11) of port connection 'rd_data_count' does not match port width (9) of module 'wr_fifo' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_fifo_ctrl.v:112]
+INFO: [Synth 8-6155] done synthesizing module 'ddr3_fifo_ctrl' (17#1) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_fifo_ctrl.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ddr3_top' (18#1) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_top.v:2]
+WARNING: [Synth 8-6014] Unused sequential element data_out_d_reg was removed.  [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/new/bram_ddr3_hdmi_test.v:85]
+INFO: [Synth 8-6155] done synthesizing module 'bram_ddr3_hdmi_test' (19#1) [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/new/bram_ddr3_hdmi_test.v:23]
+WARNING: [Synth 8-3331] design TMDS_Encoder has unconnected port SerialClk
+WARNING: [Synth 8-3331] design TMDS_Encoder has unconnected port aRst
+WARNING: [Synth 8-3331] design rgb2dvi has unconnected port aRst_n
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 892.844 ; gain = 226.258
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 892.844 ; gain = 226.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 892.844 ; gain = 226.258
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/wr_fifo/wr_fifo/wr_fifo_in_context.xdc] for cell 'ddr3_top_inst/u_ddr3_fifo_ctrl/u_wr_fifo'
+Finished Parsing XDC File [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/wr_fifo/wr_fifo/wr_fifo_in_context.xdc] for cell 'ddr3_top_inst/u_ddr3_fifo_ctrl/u_wr_fifo'
+Parsing XDC File [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0_inst'
+Finished Parsing XDC File [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0_inst'
+Parsing XDC File [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/bram_hdmi_data/bram_hdmi_data/bram_hdmi_data_in_context.xdc] for cell 'img_data_generator_inst/bram_hdmi_data_inst'
+Finished Parsing XDC File [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/bram_hdmi_data/bram_hdmi_data/bram_hdmi_data_in_context.xdc] for cell 'img_data_generator_inst/bram_hdmi_data_inst'
+Parsing XDC File [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc] for cell 'ddr3_top_inst/u_mig_7series_0'
+Finished Parsing XDC File [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc] for cell 'ddr3_top_inst/u_mig_7series_0'
+Parsing XDC File [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/rd_fifo/rd_fifo/rd_fifo_in_context.xdc] for cell 'ddr3_top_inst/u_ddr3_fifo_ctrl/u_rd_fifo'
+Finished Parsing XDC File [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/rd_fifo/rd_fifo/rd_fifo_in_context.xdc] for cell 'ddr3_top_inst/u_ddr3_fifo_ctrl/u_rd_fifo'
+Parsing XDC File [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1/clk_wiz_1_in_context.xdc] for cell 'clk_wiz_1_inst'
+WARNING: [Constraints 18-619] A clock with name 'clk' already exists, overwriting the previous clock with the same name. [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1/clk_wiz_1_in_context.xdc:1]
+Finished Parsing XDC File [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1/clk_wiz_1_in_context.xdc] for cell 'clk_wiz_1_inst'
+Parsing XDC File [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'hdmi_top_inst/datain_2_rgb_inst/ila_hdmi_out'
+Finished Parsing XDC File [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'hdmi_top_inst/datain_2_rgb_inst/ila_hdmi_out'
+Parsing XDC File [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/constrs_1/new/bram_ddr3_hdmi_test_pin.xdc]
+Finished Parsing XDC File [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/constrs_1/new/bram_ddr3_hdmi_test_pin.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/constrs_1/new/bram_ddr3_hdmi_test_pin.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/bram_ddr3_hdmi_test_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/bram_ddr3_hdmi_test_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1039.117 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1039.117 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'ddr3_top_inst/u_ddr3_fifo_ctrl/u_rd_fifo' at clock pin 'rd_clk' is different from the actual clock period '6.737', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'hdmi_top_inst/datain_2_rgb_inst/ila_hdmi_out' at clock pin 'clk' is different from the actual clock period '6.737', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1041.148 ; gain = 374.563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tfgg484-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1041.148 ; gain = 374.563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 2).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 3).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[10]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[10]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 5).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[11]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 6).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[11]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 7).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[12]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 8).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[12]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 9).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[13]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 10).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[13]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 11).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[1]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 12).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[1]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 13).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[2]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 14).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[2]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 15).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[3]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 16).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[3]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 17).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[4]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 18).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[4]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 19).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[5]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 20).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[5]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 21).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[6]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 22).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[6]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 23).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[7]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 24).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[7]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 25).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[8]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 26).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[8]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 27).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[9]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 28).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[9]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 29).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_ba[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 30).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_ba[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 31).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_ba[1]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 32).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_ba[1]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 33).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_ba[2]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 34).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_ba[2]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 35).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_cas_n. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 36).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_cas_n. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 37).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_ck_n[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 38).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_ck_n[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 39).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_ck_p[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 40).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_ck_p[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 41).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_cke[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 42).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_cke[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 43).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_cs_n[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 44).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_cs_n[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 45).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dm[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 46).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dm[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 47).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dm[1]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 48).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dm[1]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 49).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 50).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 51).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[10]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 52).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[10]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 53).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[11]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 54).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[11]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 55).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[12]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 56).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[12]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 57).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[13]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 58).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[13]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 59).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[14]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 60).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[14]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 61).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[15]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 62).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[15]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 63).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[1]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 64).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[1]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 65).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[2]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 66).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[2]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 67).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[3]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 68).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[3]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 69).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[4]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 70).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[4]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 71).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[5]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 72).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[5]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 73).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[6]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 74).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[6]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 75).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[7]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 76).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[7]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 77).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[8]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 78).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[8]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 79).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[9]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 80).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[9]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 81).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dqs_n[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 82).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dqs_n[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 83).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dqs_n[1]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 84).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dqs_n[1]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 85).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dqs_p[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 86).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dqs_p[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 87).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dqs_p[1]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 88).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dqs_p[1]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 89).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_odt[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 90).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_odt[0]. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 91).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_ras_n. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 92).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_ras_n. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 93).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_reset_n. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 94).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_reset_n. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 95).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_we_n. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 96).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_we_n. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 97).
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1/clk_wiz_1_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1/clk_wiz_1_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for ddr3_top_inst/u_ddr3_fifo_ctrl/u_wr_fifo. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clk_wiz_0_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for img_data_generator_inst/bram_hdmi_data_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ddr3_top_inst/u_mig_7series_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ddr3_top_inst/u_ddr3_fifo_ctrl/u_rd_fifo. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clk_wiz_1_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for hdmi_top_inst/datain_2_rgb_inst/ila_hdmi_out. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1041.148 ; gain = 374.563
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_cnt_reg' in module 'ddr3_rw'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+               DDR3_DONE |                             0010 |                             0010
+                   WRITE |                             0100 |                             0100
+                    READ |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'state_cnt_reg' in module 'ddr3_rw'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1041.148 ; gain = 374.563
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input     28 Bit       Adders := 2     
+	   2 Input     24 Bit       Adders := 2     
+	   2 Input     17 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 3     
+	   3 Input      5 Bit       Adders := 9     
+	   4 Input      5 Bit       Adders := 3     
+	   2 Input      5 Bit       Adders := 3     
+	   8 Input      4 Bit       Adders := 6     
+	   2 Input      4 Bit       Adders := 3     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 42    
++---Registers : 
+	               28 Bit    Registers := 6     
+	               24 Bit    Registers := 2     
+	               16 Bit    Registers := 3     
+	               12 Bit    Registers := 2     
+	               11 Bit    Registers := 3     
+	               10 Bit    Registers := 3     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 5     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 9     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 41    
++---Muxes : 
+	   2 Input     28 Bit        Muxes := 4     
+	   5 Input     28 Bit        Muxes := 2     
+	   5 Input     24 Bit        Muxes := 2     
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 3     
+	   4 Input     10 Bit        Muxes := 3     
+	   2 Input      9 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 9     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 7     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 21    
+	   3 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module bram_ddr3_hdmi_test 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module img_data_generator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module datain_2_rgb 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module SyncAsync 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module TMDS_Encoder 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      5 Bit       Adders := 3     
+	   4 Input      5 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   8 Input      4 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 14    
++---Registers : 
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   4 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+Module ddr3_rw 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input     28 Bit       Adders := 2     
+	   2 Input     24 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               28 Bit    Registers := 6     
+	               24 Bit    Registers := 2     
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input     28 Bit        Muxes := 4     
+	   5 Input     28 Bit        Muxes := 2     
+	   5 Input     24 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 7     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+	   5 Input      1 Bit        Muxes := 7     
+Module ddr3_fifo_ctrl 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'rgb2dvi_inst/DataEncoders[1].DataEncoder/pC1_1_reg' into 'rgb2dvi_inst/DataEncoders[1].DataEncoder/pC0_1_reg' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd:115]
+INFO: [Synth 8-4471] merging register 'rgb2dvi_inst/DataEncoders[1].DataEncoder/pC1_2_reg' into 'rgb2dvi_inst/DataEncoders[1].DataEncoder/pC0_2_reg' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd:149]
+INFO: [Synth 8-4471] merging register 'rgb2dvi_inst/DataEncoders[1].DataEncoder/pVde_1_reg' into 'rgb2dvi_inst/DataEncoders[0].DataEncoder/pVde_1_reg' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd:110]
+INFO: [Synth 8-4471] merging register 'rgb2dvi_inst/DataEncoders[1].DataEncoder/pVde_2_reg' into 'rgb2dvi_inst/DataEncoders[0].DataEncoder/pVde_2_reg' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd:150]
+INFO: [Synth 8-4471] merging register 'rgb2dvi_inst/DataEncoders[2].DataEncoder/pC0_1_reg' into 'rgb2dvi_inst/DataEncoders[1].DataEncoder/pC0_1_reg' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd:114]
+INFO: [Synth 8-4471] merging register 'rgb2dvi_inst/DataEncoders[2].DataEncoder/pC0_2_reg' into 'rgb2dvi_inst/DataEncoders[1].DataEncoder/pC0_2_reg' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd:148]
+INFO: [Synth 8-4471] merging register 'rgb2dvi_inst/DataEncoders[2].DataEncoder/pC1_1_reg' into 'rgb2dvi_inst/DataEncoders[1].DataEncoder/pC0_1_reg' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd:115]
+INFO: [Synth 8-4471] merging register 'rgb2dvi_inst/DataEncoders[2].DataEncoder/pC1_2_reg' into 'rgb2dvi_inst/DataEncoders[1].DataEncoder/pC0_2_reg' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd:149]
+INFO: [Synth 8-4471] merging register 'rgb2dvi_inst/DataEncoders[2].DataEncoder/pVde_1_reg' into 'rgb2dvi_inst/DataEncoders[0].DataEncoder/pVde_1_reg' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd:110]
+INFO: [Synth 8-4471] merging register 'rgb2dvi_inst/DataEncoders[2].DataEncoder/pVde_2_reg' into 'rgb2dvi_inst/DataEncoders[0].DataEncoder/pVde_2_reg' [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd:150]
+INFO: [Synth 8-3886] merging instance 'hdmi_top_inst/rgb2dvi_inst/DataEncoders[0].DataEncoder/n0q_m_2_reg[0]' (FD) to 'hdmi_top_inst/rgb2dvi_inst/DataEncoders[0].DataEncoder/n1q_m_2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'hdmi_top_inst/rgb2dvi_inst/DataEncoders[1].DataEncoder/n0q_m_2_reg[0]' (FD) to 'hdmi_top_inst/rgb2dvi_inst/DataEncoders[1].DataEncoder/n1q_m_2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'hdmi_top_inst/rgb2dvi_inst/DataEncoders[2].DataEncoder/n0q_m_2_reg[0]' (FD) to 'hdmi_top_inst/rgb2dvi_inst/DataEncoders[2].DataEncoder/n1q_m_2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hdmi_top_inst/rgb2dvi_inst/DataEncoders[1].DataEncoder/pC0_1_reg )
+INFO: [Synth 8-3886] merging instance 'hdmi_top_inst/rgb2dvi_inst/DataEncoders[1].DataEncoder/pC0_2_reg' (FD) to 'hdmi_top_inst/rgb2dvi_inst/DataEncoders[1].DataEncoder/pC0_1_reg'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[0]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[1]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[25]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[26]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[27]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[2]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_max_a_reg[0]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_max_a_reg[1]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[25]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[26]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[27]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_max_a_reg[2]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[0]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[0]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[1]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[1]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[2]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[2]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[3]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[3]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[4]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[4]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[5]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[5]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[6]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[6]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[7]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[7]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[8]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[8]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[9]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[9]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[10]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[10]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[11]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[11]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[12]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[12]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[13]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[13]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[14]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[14]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[15]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[15]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[16]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[16]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[17]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[17]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[18]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[18]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[19]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[19]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[20]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[20]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[21]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[21]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[22]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[22]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[23]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[23]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_min_a_reg[24]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_min_a_reg[24]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[3]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[4]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[5]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[6]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[7]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[8]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[9]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[10]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[11]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[12]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[13]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[14]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[15]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[16]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[17]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[18]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[19]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[20]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[21]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[22]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[23]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[24]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[25]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[26]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_wr_max_a_reg[27]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_max_a_reg[3]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_max_a_reg[4]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_max_a_reg[5]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_max_a_reg[6]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_max_a_reg[7]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_max_a_reg[8]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_max_a_reg[9]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_max_a_reg[10]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ddr3_top_inst/u_ddr3_rw/app_addr_rd_max_a_reg[11]' (FDC) to 'ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr3_top_inst/u_ddr3_rw/wr_bust_len_a_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hdmi_top_inst/rgb2dvi_inst/DataEncoders[1].DataEncoder/pC0_1_reg )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1041.148 ; gain = 374.563
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_wiz_0_inst/video_clk' to pin 'clk_wiz_0_inst/bbstub_video_clk/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_wiz_0_inst/video_clk_5x' to pin 'clk_wiz_0_inst/bbstub_video_clk_5x/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'ddr3_top_inst/u_mig_7series_0/ui_clk' to pin 'ddr3_top_inst/u_mig_7series_0/bbstub_ui_clk/O'
+WARNING: [Synth 8-565] redefining clock 'clk'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_wiz_1_inst/clk_200m' to pin 'clk_wiz_1_inst/bbstub_clk_200m/O'
+INFO: [Synth 8-5819] Moved 4 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1041.148 ; gain = 374.563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1041.148 ; gain = 374.563
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1041.148 ; gain = 374.563
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \img_data_generator_inst/bram_hdmi_data_inst  has unconnected pin dina[15]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \img_data_generator_inst/bram_hdmi_data_inst  has unconnected pin dina[14]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \img_data_generator_inst/bram_hdmi_data_inst  has unconnected pin dina[13]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \img_data_generator_inst/bram_hdmi_data_inst  has unconnected pin dina[12]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \img_data_generator_inst/bram_hdmi_data_inst  has unconnected pin dina[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \img_data_generator_inst/bram_hdmi_data_inst  has unconnected pin dina[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \img_data_generator_inst/bram_hdmi_data_inst  has unconnected pin dina[9]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \img_data_generator_inst/bram_hdmi_data_inst  has unconnected pin dina[8]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \img_data_generator_inst/bram_hdmi_data_inst  has unconnected pin dina[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \img_data_generator_inst/bram_hdmi_data_inst  has unconnected pin dina[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \img_data_generator_inst/bram_hdmi_data_inst  has unconnected pin dina[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \img_data_generator_inst/bram_hdmi_data_inst  has unconnected pin dina[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \img_data_generator_inst/bram_hdmi_data_inst  has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \img_data_generator_inst/bram_hdmi_data_inst  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \img_data_generator_inst/bram_hdmi_data_inst  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \img_data_generator_inst/bram_hdmi_data_inst  has unconnected pin dina[0]
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1042.309 ; gain = 375.723
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1042.309 ; gain = 375.723
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1042.309 ; gain = 375.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1042.309 ; gain = 375.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1042.309 ; gain = 375.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1042.309 ; gain = 375.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------+----------+
+|      |BlackBox name  |Instances |
++------+---------------+----------+
+|1     |clk_wiz_0      |         1|
+|2     |clk_wiz_1      |         1|
+|3     |mig_7series_0  |         1|
+|4     |rd_fifo        |         1|
+|5     |wr_fifo        |         1|
+|6     |ila_0          |         1|
+|7     |bram_hdmi_data |         1|
++------+---------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |bram_hdmi_data |     1|
+|2     |clk_wiz_0      |     1|
+|3     |clk_wiz_1      |     1|
+|4     |ila_0          |     1|
+|5     |mig_7series_0  |     1|
+|6     |rd_fifo        |     1|
+|7     |wr_fifo        |     1|
+|8     |CARRY4         |    74|
+|9     |LUT1           |    37|
+|10    |LUT2           |   123|
+|11    |LUT3           |    86|
+|12    |LUT4           |   120|
+|13    |LUT5           |   101|
+|14    |LUT6           |   126|
+|15    |OSERDESE2      |     4|
+|16    |OSERDESE2_1    |     4|
+|17    |FDCE           |   208|
+|18    |FDPE           |     3|
+|19    |FDRE           |   135|
+|20    |FDSE           |    15|
+|21    |IBUF           |     1|
+|22    |OBUF           |     1|
+|23    |OBUFDS         |     4|
++------+---------------+------+
+
+Report Instance Areas: 
++------+---------------------------------------+-------------------+------+
+|      |Instance                               |Module             |Cells |
++------+---------------------------------------+-------------------+------+
+|1     |top                                    |                   |  1411|
+|2     |  ddr3_top_inst                        |ddr3_top           |   811|
+|3     |    u_ddr3_fifo_ctrl                   |ddr3_fifo_ctrl     |   207|
+|4     |    u_ddr3_rw                          |ddr3_rw            |   426|
+|5     |  hdmi_top_inst                        |hdmi_top           |   452|
+|6     |    datain_2_rgb_inst                  |datain_2_rgb       |   115|
+|7     |    rgb2dvi_inst                       |rgb2dvi            |   337|
+|8     |      ClockSerializer                  |OutputSERDES       |     3|
+|9     |      \DataEncoders[0].DataEncoder     |TMDS_Encoder       |   114|
+|10    |      \DataEncoders[0].DataSerializer  |OutputSERDES_0     |     3|
+|11    |      \DataEncoders[1].DataEncoder     |TMDS_Encoder_1     |   104|
+|12    |      \DataEncoders[1].DataSerializer  |OutputSERDES_2     |     3|
+|13    |      \DataEncoders[2].DataEncoder     |TMDS_Encoder_3     |   104|
+|14    |      \DataEncoders[2].DataSerializer  |OutputSERDES_4     |     3|
+|15    |      LockLostReset                    |ResetBridge        |     3|
+|16    |        SyncAsyncx                     |SyncAsync          |     2|
+|17    |  img_data_generator_inst              |img_data_generator |   138|
++------+---------------------------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1042.309 ; gain = 375.723
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 16 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:33 . Memory (MB): peak = 1042.309 ; gain = 227.418
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1042.309 ; gain = 375.723
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 78 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1049.418 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+181 Infos, 23 Warnings, 16 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 1049.418 ; gain = 627.285
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1049.418 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1/bram_ddr3_hdmi_test.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file bram_ddr3_hdmi_test_utilization_synth.rpt -pb bram_ddr3_hdmi_test_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Feb  4 17:18:16 2023...

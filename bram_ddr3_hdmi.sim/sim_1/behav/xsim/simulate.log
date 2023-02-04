@@ -1,0 +1,77 @@
+Vivado Simulator 2019.1
+Time resolution is 1 fs
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.img_data_generator_inst.bram_hdmi_data_inst.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: file design.txt could not be opened
+ *** Warning: The analog data file design.txt for XADC instance tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.temp_mon_enabled.u_tempmon.xadc_supplied_temperature.XADC_inst was not found. Use the SIM_MONITOR_FILE parameter to specify the analog data file name or use the default name: design.txt.
+
+############# Write Clocks PLLE2_ADV Parameters #############
+
+nCK_PER_CLK      =       4
+CLK_PERIOD       =    5000
+CLKIN1_PERIOD    =   5.000
+DIVCLK_DIVIDE    =       1
+CLKFBOUT_MULT    =       4
+VCO_PERIOD       =  1250.0
+CLKOUT0_DIVIDE_F =       1
+CLKOUT1_DIVIDE   =       2
+CLKOUT2_DIVIDE   =      32
+CLKOUT3_DIVIDE   =       8
+CLKOUT0_PERIOD   =    1250
+CLKOUT1_PERIOD   =    2500
+CLKOUT2_PERIOD   =   40000
+CLKOUT3_PERIOD   =   10000
+CLKOUT4_PERIOD   =    5000
+############################################################
+
+############# MMCME2_ADV Parameters #############
+
+MMCM_MULT_F           =           8
+MMCM_VCO_FREQ (MHz)   = 800.000
+MMCM_VCO_PERIOD       = 1250.000
+#################################################
+
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : BYTE_LANES_B0 = f BYTE_LANES_B1 = 0 DATA_CTL_B0 = c DATA_CTL_B1 = 0
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : HIGHEST_LANE =           4 HIGHEST_LANE_B0 =           4 HIGHEST_LANE_B1 =           0
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : HIGHEST_BANK =           1
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : FREQ_REF_PERIOD         = 1250.00 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : DDR_TCK                 = 2500 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_S2_TAPS_SIZE         = 9.77 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_EARLY       = 1 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_OFFSET      = 1219.75 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_META_ZONE   = 200.00 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_STG2_FINE_INTR_DLY   = 769.25 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_STG2_COARSE_INTR_DLY = 511.00 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_STG2_INTRINSIC_DELAY = 1280.25 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_DELAY       = 60 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_INTRINSIC_DELAY      = 1280.25 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_DELAY                = 1866.19 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_OCLK_DELAY           = 0 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : L_PHY_0_PO_FINE_DELAY   = 60 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_STG1_INTRINSIC_DELAY = 0.00 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_STG2_INTRINSIC_DELAY = 744.00 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_INTRINSIC_DELAY      = 744.00 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_MAX_STG2_DELAY       = 615.23 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_OFFSET               = -78.00 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : a negative PI_OFFSET means that rclk path is longer than oclk path so rclk will be delayed to next oclk edge and the negedge of rclk may be used.
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_STG2_DELAY           = 615.23 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy :PI_STG2_DELAY_CAND       = 1172.00 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : DEFAULT_RCLK_DELAY      = 63 
+tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : RCLK_SELECT_EDGE        = 0 
+WARNING: tb_bram_ddr3_hdmi_test.bram_ddr3_hdmi_test_inst.ddr3_top_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy: The required delay though the phaser_in to internally match the aux_out clock  to ddr clock exceeds the maximum allowable delay. The clock edge  will occur at the output registers of aux_out 556.77 ps before the ddr clock  edge. If aux_out is used for memory inputs, this may violate setup or hold time.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 40 ns  Iteration: 2  Process: /tb_bram_ddr3_hdmi_test/bram_ddr3_hdmi_test_inst/hdmi_top_inst/rgb2dvi_inst/\DataEncoders(0)\/DataEncoder/line__154  File: E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 40 ns  Iteration: 2  Process: /tb_bram_ddr3_hdmi_test/bram_ddr3_hdmi_test_inst/hdmi_top_inst/rgb2dvi_inst/\DataEncoders(1)\/DataEncoder/line__154  File: E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 40 ns  Iteration: 2  Process: /tb_bram_ddr3_hdmi_test/bram_ddr3_hdmi_test_inst/hdmi_top_inst/rgb2dvi_inst/\DataEncoders(2)\/DataEncoder/line__154  File: E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 10880 ns  Iteration: 4  Process: /tb_bram_ddr3_hdmi_test/bram_ddr3_hdmi_test_inst/hdmi_top_inst/rgb2dvi_inst/\DataEncoders(0)\/DataEncoder/line__154  File: E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 10880 ns  Iteration: 4  Process: /tb_bram_ddr3_hdmi_test/bram_ddr3_hdmi_test_inst/hdmi_top_inst/rgb2dvi_inst/\DataEncoders(1)\/DataEncoder/line__154  File: E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 10880 ns  Iteration: 4  Process: /tb_bram_ddr3_hdmi_test/bram_ddr3_hdmi_test_inst/hdmi_top_inst/rgb2dvi_inst/\DataEncoders(2)\/DataEncoder/line__154  File: E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd
+PHY_INIT: Memory Initialization completed at          10895100000
