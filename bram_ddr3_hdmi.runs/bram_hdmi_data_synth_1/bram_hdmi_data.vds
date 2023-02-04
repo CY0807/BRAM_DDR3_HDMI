@@ -2,12 +2,12 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Thu Jan 12 10:00:49 2023
-# Process ID: 26272
-# Current directory: E:/eth_ddr3_hdmi/eth_ddr3_hdmi.runs/bram_hdmi_data_synth_1
+# Start of session at: Sat Feb  4 21:20:10 2023
+# Process ID: 16072
+# Current directory: E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/bram_hdmi_data_synth_1
 # Command line: vivado.exe -log bram_hdmi_data.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bram_hdmi_data.tcl
-# Log file: E:/eth_ddr3_hdmi/eth_ddr3_hdmi.runs/bram_hdmi_data_synth_1/bram_hdmi_data.vds
-# Journal file: E:/eth_ddr3_hdmi/eth_ddr3_hdmi.runs/bram_hdmi_data_synth_1\vivado.jou
+# Log file: E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/bram_hdmi_data_synth_1/bram_hdmi_data.vds
+# Journal file: E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/bram_hdmi_data_synth_1\vivado.jou
 #-----------------------------------------------------------
 source bram_hdmi_data.tcl -notrace
 Command: synth_design -top bram_hdmi_data -part xc7a35tfgg484-2L -mode out_of_context
@@ -16,11 +16,11 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Device 21-403] Loading part xc7a35tfgg484-2L
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 17196 
+INFO: Helper process launched with PID 12640 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 802.422 ; gain = 177.078
+Starting RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 802.555 ; gain = 176.145
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'bram_hdmi_data' [e:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/bram_hdmi_data/synth/bram_hdmi_data.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'bram_hdmi_data' [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/bram_hdmi_data/synth/bram_hdmi_data.vhd:70]
 	Parameter C_FAMILY bound to: artix7 - type: string 
 	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
@@ -96,8 +96,8 @@ INFO: [Synth 8-638] synthesizing module 'bram_hdmi_data' [e:/eth_ddr3_hdmi/eth_d
 	Parameter C_COUNT_36K_BRAM bound to: 35 - type: string 
 	Parameter C_COUNT_18K_BRAM bound to: 9 - type: string 
 	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     17.389902 mW - type: string 
-INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_3' declared at 'e:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/bram_hdmi_data/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_3' [e:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/bram_hdmi_data/synth/bram_hdmi_data.vhd:236]
-INFO: [Synth 8-256] done synthesizing module 'bram_hdmi_data' (11#1) [e:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/bram_hdmi_data/synth/bram_hdmi_data.vhd:70]
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_3' declared at 'e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/bram_hdmi_data/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_3' [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/bram_hdmi_data/synth/bram_hdmi_data.vhd:236]
+INFO: [Synth 8-256] done synthesizing module 'bram_hdmi_data' (11#1) [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/bram_hdmi_data/synth/bram_hdmi_data.vhd:70]
 WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port MUX_RST[0]
 WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port MEM_LAT_RST
 WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port MEM_REG_RST
@@ -200,7 +200,7 @@ WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected p
 WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[947]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:03:10 ; elapsed = 00:03:16 . Memory (MB): peak = 1208.797 ; gain = 583.453
+Finished RTL Elaboration : Time (s): cpu = 00:04:32 ; elapsed = 00:04:50 . Memory (MB): peak = 1207.809 ; gain = 581.398
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -213,10 +213,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:03:10 ; elapsed = 00:03:16 . Memory (MB): peak = 1208.797 ; gain = 583.453
+Finished Handling Custom Attributes : Time (s): cpu = 00:04:33 ; elapsed = 00:04:50 . Memory (MB): peak = 1207.809 ; gain = 581.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:03:10 ; elapsed = 00:03:16 . Memory (MB): peak = 1208.797 ; gain = 583.453
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:04:33 ; elapsed = 00:04:50 . Memory (MB): peak = 1207.809 ; gain = 581.398
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 44 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -224,36 +224,36 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [e:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/bram_hdmi_data/bram_hdmi_data_ooc.xdc] for cell 'U0'
-Finished Parsing XDC File [e:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/bram_hdmi_data/bram_hdmi_data_ooc.xdc] for cell 'U0'
-Parsing XDC File [E:/eth_ddr3_hdmi/eth_ddr3_hdmi.runs/bram_hdmi_data_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [E:/eth_ddr3_hdmi/eth_ddr3_hdmi.runs/bram_hdmi_data_synth_1/dont_touch.xdc]
+Parsing XDC File [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/bram_hdmi_data/bram_hdmi_data_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/bram_hdmi_data/bram_hdmi_data_ooc.xdc] for cell 'U0'
+Parsing XDC File [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/bram_hdmi_data_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/bram_hdmi_data_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1208.797 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1207.809 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.235 . Memory (MB): peak = 1208.797 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.175 . Memory (MB): peak = 1207.809 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:03:18 ; elapsed = 00:03:27 . Memory (MB): peak = 1208.797 ; gain = 583.453
+Finished Constraint Validation : Time (s): cpu = 00:04:46 ; elapsed = 00:05:04 . Memory (MB): peak = 1207.809 ; gain = 581.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tfgg484-2L
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:03:18 ; elapsed = 00:03:27 . Memory (MB): peak = 1208.797 ; gain = 583.453
+Finished Loading Part and Timing Information : Time (s): cpu = 00:04:46 ; elapsed = 00:05:04 . Memory (MB): peak = 1207.809 ; gain = 581.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true for U0. (constraint file  E:/eth_ddr3_hdmi/eth_ddr3_hdmi.runs/bram_hdmi_data_synth_1/dont_touch.xdc, line 9).
+Applied set_property DONT_TOUCH = true for U0. (constraint file  E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/bram_hdmi_data_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:03:18 ; elapsed = 00:03:28 . Memory (MB): peak = 1208.797 ; gain = 583.453
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:04:46 ; elapsed = 00:05:04 . Memory (MB): peak = 1207.809 ; gain = 581.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:03:21 ; elapsed = 00:03:30 . Memory (MB): peak = 1208.797 ; gain = 583.453
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:04:49 ; elapsed = 00:05:09 . Memory (MB): peak = 1207.809 ; gain = 581.398
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -305,7 +305,7 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:24 ; elapsed = 00:03:34 . Memory (MB): peak = 1208.797 ; gain = 583.453
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:04:55 ; elapsed = 00:05:17 . Memory (MB): peak = 1207.809 ; gain = 581.398
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -317,13 +317,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:33 ; elapsed = 00:03:44 . Memory (MB): peak = 1208.797 ; gain = 583.453
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:05:09 ; elapsed = 00:05:33 . Memory (MB): peak = 1207.809 ; gain = 581.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:03:33 ; elapsed = 00:03:44 . Memory (MB): peak = 1208.797 ; gain = 583.453
+Finished Timing Optimization : Time (s): cpu = 00:05:09 ; elapsed = 00:05:34 . Memory (MB): peak = 1207.809 ; gain = 581.398
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -335,7 +335,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:03:34 ; elapsed = 00:03:44 . Memory (MB): peak = 1208.797 ; gain = 583.453
+Finished Technology Mapping : Time (s): cpu = 00:05:09 ; elapsed = 00:05:34 . Memory (MB): peak = 1207.809 ; gain = 581.398
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -359,7 +359,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:03:36 ; elapsed = 00:03:47 . Memory (MB): peak = 1208.797 ; gain = 583.453
+Finished IO Insertion : Time (s): cpu = 00:05:12 ; elapsed = 00:05:37 . Memory (MB): peak = 1207.809 ; gain = 581.398
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -372,7 +372,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:03:36 ; elapsed = 00:03:47 . Memory (MB): peak = 1208.797 ; gain = 583.453
+Finished Renaming Generated Instances : Time (s): cpu = 00:05:12 ; elapsed = 00:05:37 . Memory (MB): peak = 1207.809 ; gain = 581.398
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -384,25 +384,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:36 ; elapsed = 00:03:47 . Memory (MB): peak = 1208.797 ; gain = 583.453
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:05:12 ; elapsed = 00:05:37 . Memory (MB): peak = 1207.809 ; gain = 581.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:03:36 ; elapsed = 00:03:47 . Memory (MB): peak = 1208.797 ; gain = 583.453
+Finished Renaming Generated Ports : Time (s): cpu = 00:05:12 ; elapsed = 00:05:37 . Memory (MB): peak = 1207.809 ; gain = 581.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:03:36 ; elapsed = 00:03:47 . Memory (MB): peak = 1208.797 ; gain = 583.453
+Finished Handling Custom Attributes : Time (s): cpu = 00:05:12 ; elapsed = 00:05:37 . Memory (MB): peak = 1207.809 ; gain = 581.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:03:36 ; elapsed = 00:03:47 . Memory (MB): peak = 1208.797 ; gain = 583.453
+Finished Renaming Generated Nets : Time (s): cpu = 00:05:12 ; elapsed = 00:05:37 . Memory (MB): peak = 1207.809 ; gain = 581.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -556,34 +556,34 @@ Report Instance Areas:
 |80    |            \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized8  |     1|
 +------+---------------------------------------------+-----------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:03:36 ; elapsed = 00:03:47 . Memory (MB): peak = 1208.797 ; gain = 583.453
+Finished Writing Synthesis Report : Time (s): cpu = 00:05:12 ; elapsed = 00:05:37 . Memory (MB): peak = 1207.809 ; gain = 581.398
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 171 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:03:41 . Memory (MB): peak = 1208.797 ; gain = 583.453
-Synthesis Optimization Complete : Time (s): cpu = 00:03:36 ; elapsed = 00:03:47 . Memory (MB): peak = 1208.797 ; gain = 583.453
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:05:30 . Memory (MB): peak = 1207.809 ; gain = 581.398
+Synthesis Optimization Complete : Time (s): cpu = 00:05:12 ; elapsed = 00:05:37 . Memory (MB): peak = 1207.809 ; gain = 581.398
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 44 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1208.797 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1207.809 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
 17 Infos, 100 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:03:44 ; elapsed = 00:03:58 . Memory (MB): peak = 1208.797 ; gain = 822.805
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1208.797 ; gain = 0.000
+synth_design: Time (s): cpu = 00:05:21 ; elapsed = 00:05:49 . Memory (MB): peak = 1207.809 ; gain = 822.672
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1207.809 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint 'E:/eth_ddr3_hdmi/eth_ddr3_hdmi.runs/bram_hdmi_data_synth_1/bram_hdmi_data.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/bram_hdmi_data_synth_1/bram_hdmi_data.dcp' has been generated.
 WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
 INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bram_hdmi_data, cache-ID = 3440b3be4c42ba6f
 INFO: [Coretcl 2-1174] Renamed 79 cell refs.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1208.797 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1207.809 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint 'E:/eth_ddr3_hdmi/eth_ddr3_hdmi.runs/bram_hdmi_data_synth_1/bram_hdmi_data.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/bram_hdmi_data_synth_1/bram_hdmi_data.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file bram_hdmi_data_utilization_synth.rpt -pb bram_hdmi_data_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Jan 12 10:05:04 2023...
+INFO: [Common 17-206] Exiting Vivado at Sat Feb  4 21:26:12 2023...

@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-// Date        : Thu Jan 12 10:05:03 2023
+// Date        : Sat Feb  4 21:26:12 2023
 // Host        : LAPTOP-8KA88UT5 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/bram_hdmi_data/bram_hdmi_data_sim_netlist.v
+//               E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/bram_hdmi_data/bram_hdmi_data_sim_netlist.v
 // Design      : bram_hdmi_data
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.

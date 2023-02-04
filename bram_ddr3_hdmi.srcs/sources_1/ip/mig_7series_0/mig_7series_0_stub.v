@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-// Date        : Thu Jan 19 10:22:41 2023
+// Date        : Sat Feb  4 21:25:46 2023
 // Host        : LAPTOP-8KA88UT5 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
-//               E:/eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0_stub.v
+//               E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_7series_0_stub.v
 // Design      : mig_7series_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7a35tfgg484-2L

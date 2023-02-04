@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="mig_7series_0_synth_1" LaunchPart="xc7a35tfgg484-2L" LaunchTime="1674094722">
+<GenRun Id="mig_7series_0_synth_1" LaunchPart="xc7a35tfgg484-2L" LaunchTime="1675516802">
   <File Type="PA-TCL" Name="mig_7series_0.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="mig_7series_0_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="mig_7series_0_reports.tcl"/>
   <File Type="RDS-RDS" Name="mig_7series_0.vds"/>
   <File Type="RDS-UTIL" Name="mig_7series_0_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="mig_7series_0_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="mig_7series_0.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="mig_7series_0_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="mig_7series_0_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/mig_7series_0">
     <File Path="$PSRCDIR/sources_1/ip/mig_7series_0/mig_7series_0.xci">
       <FileInfo>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tfgg484-2L" LaunchTime="1675502234">
+<GenRun Id="impl_1" LaunchPart="xc7a35tfgg484-2L" LaunchTime="1675516803">
   <File Type="BITSTR-BMM" Name="bram_ddr3_hdmi_test_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="bram_ddr3_hdmi_test_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="bram_ddr3_hdmi_test_timing_summary_init.rpt"/>

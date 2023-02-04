@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='E:/eth_ddr3_hdmi/eth_ddr3_hdmi.runs/bram_hdmi_data_synth_1'
+HD_PWD='E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/bram_hdmi_data_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

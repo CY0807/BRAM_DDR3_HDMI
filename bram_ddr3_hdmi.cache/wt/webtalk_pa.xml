@@ -3,10 +3,10 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Sat Feb  4 17:43:18 2023">
+<application name="pa" timeStamp="Sat Feb  4 21:20:04 2023">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="8f8cce784a75440cafab45599e92a620" type="ProjectID"/>
-<property name="ProjectIteration" value="56" type="ProjectIteration"/>
+<property name="ProjectIteration" value="57" type="ProjectIteration"/>
 </section>
 <section name="PlanAhead Usage" visible="true">
 <item name="Project Data">
@@ -35,7 +35,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="RefreshDevice" value="4" type="JavaHandler"/>
 <property name="ReportIPStatus" value="8" type="JavaHandler"/>
 <property name="ReportTimingSummary" value="1" type="JavaHandler"/>
-<property name="RunBitgen" value="53" type="JavaHandler"/>
+<property name="RunBitgen" value="54" type="JavaHandler"/>
 <property name="RunImplementation" value="10" type="JavaHandler"/>
 <property name="RunSynthesis" value="12" type="JavaHandler"/>
 <property name="RunTrigger" value="142" type="JavaHandler"/>
@@ -65,7 +65,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="BaseDialog_APPLY" value="2" type="GuiHandlerData"/>
 <property name="BaseDialog_CANCEL" value="35" type="GuiHandlerData"/>
 <property name="BaseDialog_NO" value="2" type="GuiHandlerData"/>
-<property name="BaseDialog_OK" value="302" type="GuiHandlerData"/>
+<property name="BaseDialog_OK" value="303" type="GuiHandlerData"/>
 <property name="BaseDialog_YES" value="2" type="GuiHandlerData"/>
 <property name="BaseReportTab_RERUN" value="2" type="GuiHandlerData"/>
 <property name="CfgMemPartChooser_DENSITY_CHOOSER" value="8" type="GuiHandlerData"/>
@@ -142,7 +142,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PACommandNames_PROGRAM_FPGA" value="3" type="GuiHandlerData"/>
 <property name="PACommandNames_RECUSTOMIZE_CORE" value="2" type="GuiHandlerData"/>
 <property name="PACommandNames_REPORT_IP_STATUS" value="8" type="GuiHandlerData"/>
-<property name="PACommandNames_RUN_BITGEN" value="19" type="GuiHandlerData"/>
+<property name="PACommandNames_RUN_BITGEN" value="20" type="GuiHandlerData"/>
 <property name="PACommandNames_RUN_IMPLEMENTATION" value="8" type="GuiHandlerData"/>
 <property name="PACommandNames_RUN_SYNTHESIS" value="13" type="GuiHandlerData"/>
 <property name="PACommandNames_SAVE_PROJECT_AS" value="1" type="GuiHandlerData"/>
@@ -172,7 +172,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ProgramFpgaDialog_PROGRAM" value="43" type="GuiHandlerData"/>
 <property name="ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE" value="7" type="GuiHandlerData"/>
 <property name="ProgramFpgaDialog_SPECIFY_DEBUG_PROBES_FILE" value="8" type="GuiHandlerData"/>
-<property name="ProgressDialog_BACKGROUND" value="7" type="GuiHandlerData"/>
+<property name="ProgressDialog_BACKGROUND" value="8" type="GuiHandlerData"/>
 <property name="ProgressDialog_CANCEL" value="2" type="GuiHandlerData"/>
 <property name="ProjectDashboardGadget_GRAPH" value="1" type="GuiHandlerData"/>
 <property name="ProjectDashboardGadget_TABLE" value="1" type="GuiHandlerData"/>
@@ -232,11 +232,6 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="WaveformView_NEXT_TRANSITION" value="132" type="GuiHandlerData"/>
 <property name="WaveformView_PREVIOUS_TRANSITION" value="38" type="GuiHandlerData"/>
 <property name="WaveformView_REMOVE_SELECTED" value="1" type="GuiHandlerData"/>
-</item>
-<item name="Other">
-<property name="GuiMode" value="35" type="GuiMode"/>
-<property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="26" type="TclMode"/>
 </item>
 </section>
 </application>

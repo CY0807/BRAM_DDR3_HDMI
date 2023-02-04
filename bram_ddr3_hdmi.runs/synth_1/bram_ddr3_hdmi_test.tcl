@@ -28,6 +28,7 @@ set_property parent.project_path E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.xp
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
+set_property ip_output_repo e:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 add_files E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/imports/384x216_img_bram_init_file/1.coe
 add_files E:/eth_ddr3_hdmi/cy_files/hdmi_test/384x216_img_bram_init_file/1.coe

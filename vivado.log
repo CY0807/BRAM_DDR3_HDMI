@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Feb  4 21:14:45 2023
+# Process ID: 4452
+# Current directory: E:/github_repo/bram_ddr3_hdmi
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent432 E:\github_repo\bram_ddr3_hdmi\bram_ddr3_hdmi.xpr
+# Log file: E:/github_repo/bram_ddr3_hdmi/vivado.log
+# Journal file: E:/github_repo/bram_ddr3_hdmi\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:23 . Memory (MB): peak = 870.695 ; gain = 272.301
+update_compile_order -fileset sources_1
+reset_run synth_1
+reset_run bram_hdmi_data_synth_1
+reset_run mig_7series_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.srcs/sources_1/ip/wr_fifo/wr_fifo.xci' is already up-to-date
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'bram_hdmi_data'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+[Sat Feb  4 21:20:04 2023] Launched bram_hdmi_data_synth_1, mig_7series_0_synth_1, synth_1...
+Run output will be captured here:
+bram_hdmi_data_synth_1: E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/bram_hdmi_data_synth_1/runme.log
+mig_7series_0_synth_1: E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/mig_7series_0_synth_1/runme.log
+synth_1: E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/synth_1/runme.log
+[Sat Feb  4 21:20:05 2023] Launched impl_1...
+Run output will be captured here: E:/github_repo/bram_ddr3_hdmi/bram_ddr3_hdmi.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1250.863 ; gain = 0.000
