@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Sat Feb  4 21:20:04 2023">
+<application name="pa" timeStamp="Sun Feb  5 13:14:32 2023">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="8f8cce784a75440cafab45599e92a620" type="ProjectID"/>
 <property name="ProjectIteration" value="57" type="ProjectIteration"/>
@@ -63,7 +63,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES" value="1" type="GuiHandlerData"/>
 <property name="AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES" value="1" type="GuiHandlerData"/>
 <property name="BaseDialog_APPLY" value="2" type="GuiHandlerData"/>
-<property name="BaseDialog_CANCEL" value="35" type="GuiHandlerData"/>
+<property name="BaseDialog_CANCEL" value="36" type="GuiHandlerData"/>
 <property name="BaseDialog_NO" value="2" type="GuiHandlerData"/>
 <property name="BaseDialog_OK" value="303" type="GuiHandlerData"/>
 <property name="BaseDialog_YES" value="2" type="GuiHandlerData"/>
@@ -85,7 +85,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="EditProbeValueDialog_CANCEL" value="1" type="GuiHandlerData"/>
 <property name="ExpReportTreePanel_EXP_REPORT_TREE_TABLE" value="1" type="GuiHandlerData"/>
 <property name="ExpRunTreePanel_EXP_RUN_TREE_TABLE" value="2" type="GuiHandlerData"/>
-<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="1022" type="GuiHandlerData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="1068" type="GuiHandlerData"/>
 <property name="FileSetPanel_MESSAGES" value="5" type="GuiHandlerData"/>
 <property name="FilterToolBar_HIDE_ALL" value="2" type="GuiHandlerData"/>
 <property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="103" type="GuiHandlerData"/>
@@ -95,7 +95,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="HACGCCoeFileWidget_BROWSE" value="2" type="GuiHandlerData"/>
 <property name="HACGCIPSymbol_SHOW_DISABLED_PORTS" value="1" type="GuiHandlerData"/>
 <property name="HJFileChooserRecentListPreview_RECENT_DIRECTORIES" value="1" type="GuiHandlerData"/>
-<property name="HPopupTitle_CLOSE" value="3" type="GuiHandlerData"/>
+<property name="HPopupTitle_CLOSE" value="5" type="GuiHandlerData"/>
 <property name="HardwareDashboardOptionsPanel_CLOSE_DASHBOARD_OPTIONS" value="1" type="GuiHandlerData"/>
 <property name="HardwareDashboardView_SHOW_DASHBOARD_OPTIONS" value="2" type="GuiHandlerData"/>
 <property name="HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE" value="143" type="GuiHandlerData"/>
@@ -181,11 +181,12 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ProjectNameChooser_CREATE_PROJECT_SUBDIRECTORY" value="1" type="GuiHandlerData"/>
 <property name="ProjectNameChooser_PROJECT_NAME" value="1" type="GuiHandlerData"/>
 <property name="ProjectSettingsSimulationPanel_SELECT_TESTBENCH_TOP_MODULE" value="1" type="GuiHandlerData"/>
+<property name="ProjectSummaryPowerPanel_CLICK_FOR_MORE_DETAILS" value="1" type="GuiHandlerData"/>
 <property name="ProjectSummaryPowerPanel_TABBED_PANE" value="3" type="GuiHandlerData"/>
 <property name="ProjectSummaryTimingPanel_OPEN_TIMING_SUMMARY_REPORT" value="1" type="GuiHandlerData"/>
 <property name="ProjectSummaryTimingPanel_PROJECT_SUMMARY_TIMING_PANEL_TABBED" value="5" type="GuiHandlerData"/>
 <property name="ProjectSummaryUtilizationGadget_PROJECT_SUMMARY_UTILIZATION_GADGET_TABBED" value="4" type="GuiHandlerData"/>
-<property name="ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED" value="20" type="GuiHandlerData"/>
+<property name="ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED" value="21" type="GuiHandlerData"/>
 <property name="ProjectTab_CLOSE_DESIGN" value="1" type="GuiHandlerData"/>
 <property name="RDICommands_COPY" value="1" type="GuiHandlerData"/>
 <property name="RDICommands_CUSTOM_COMMANDS" value="1" type="GuiHandlerData"/>
@@ -232,6 +233,11 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="WaveformView_NEXT_TRANSITION" value="132" type="GuiHandlerData"/>
 <property name="WaveformView_PREVIOUS_TRANSITION" value="38" type="GuiHandlerData"/>
 <property name="WaveformView_REMOVE_SELECTED" value="1" type="GuiHandlerData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="36" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="27" type="TclMode"/>
 </item>
 </section>
 </application>
