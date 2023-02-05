@@ -102,5 +102,23 @@ module hdmi_top(
 
 hdmi_top内部的模块则满足了hdmi 1080P的时序输出要求，其形式固定且开源资料较多，在此不进行介绍了。
 
+## 4 DDR3顶层模块——ddr3_top
 
+DDR3顶层模块主要由三部分组成：
+
+（1）MIG IP核：为Vivado软件官方提供的DDR3芯片控制器，AX7035板上配有一个Micron(美光）的2Gbit（256MB）的DDR3芯片,型号为MT41J128M16HA-125；DDR的总线宽度共为16bit；数据速率为800MHz，用户时钟为100MHz。
+
+（2）ddr3_fifo_ctrl：包含两个异步FIFO，用于缓存和跨时钟域传输，其中wr_fifo接受来自数据生成模块的16bit的像素数据，提供给ddr3 128bit的数据；rd_fifo接收来自ddr3的128bit数据，将16bit的数据传输给hdmi模块。
+
+（3）ddr3_rw：ddr3顶层模块的总控制器，主要由状态机组成，控制MIG核对wr_fifo的读取和对rd_fifo的写入；在ddr3_rw中，采用了突发读写的方式，本项目设置了突发长度burst_len为60个128bit的数据，当wr_fifo中的数据大于burst_len，则一次性将burst_len个数据从wr_fifo中读取到ddr3中；同理，当rd_fifo中的数据少于burst_len，则一次性将burst_len个数据写入到rd_fifo中；ddr3_rw为DDR3顶层模块的核心组件，详细代码见ddr3_rw.v。
+
+DDR3顶层模块的结构图如下所示：
+
+![总框图](https://user-images.githubusercontent.com/95362898/216799566-a984b17e-8bc8-4c69-80af-2e06733745f9.png)
+
+此外，DDR3顶层模块还支持读写的乒乓操作、在HDMI新的一帧到来时对rd_fifo进行复位操作、也支持对wr_fifo的复位操作等等，在此不逐一介绍了。
+
+最后附上1080P屏幕显示效果图：
+
+![0ce0580d737b55cafccd76d0c05f290](https://user-images.githubusercontent.com/95362898/216799630-5e3afaa4-896c-46fd-91a6-33bd94a8ee8d.jpg)
 
